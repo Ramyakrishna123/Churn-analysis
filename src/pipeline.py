@@ -27,3 +27,4 @@ dump(model, MODEL)
 # eval (on same data for minimal pipeline)
 preds = model.predict(X)
 print("accuracy:", round(accuracy_score(y, preds),4))
+# end of the code 
